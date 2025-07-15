@@ -6,7 +6,7 @@ This is the code behind my bachelor thesis project, which was made in collaborat
 
 The "PurgedClean" file consists of *extracts* of the working code that aims to increase readability when explaining it.
 
-´´´
+```
 ## ==== Prediction ====
 
 #> Kriging model construction and prediction
@@ -16,7 +16,7 @@ OK.model <- gstat(id = "OK", formula = as.formula("Thickness ~ 1"),
                   nmin = nmin, nmax = nmax, maxdist = maxdist, set =list(gls=1))
 OK.pred <- interpolate(covariables.rast, OK.model, cores = 4, cpkgs = "gstat", 
                        debug.level = 2, na.rm = TRUE, index = 3:4)
-´´´
+```
 
 The datasets are listed below and not uploaded, as they are of great size.
 
