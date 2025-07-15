@@ -18,7 +18,7 @@ OK.pred <- interpolate(covariables.rast, OK.model, cores = 4, cpkgs = "gstat",
                        debug.level = 2, na.rm = TRUE, index = 3:4)
 ```
 
-The datasets are listed below and not uploaded, as they are of great size.
+The datasets used are listed below and not uploaded, as they are of great size.
 
 ## Datasets
 
