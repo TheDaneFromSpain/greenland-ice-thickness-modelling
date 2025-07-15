@@ -1,10 +1,10 @@
 ﻿# Greenland ice thickness modelling
 
-This is the code behind my bachelor thesis project, which was made in collaboration with the department of Geoscience, Aarhus University, and the Geological Survey of Denmark and Greenland research institute, using publicly available data.
+This is the code behind my bachelor thesis project, which was made in collaboration with the department of Geoscience, Aarhus University, and the Geological Survey of Denmark and Greenland research institute, using publicly available data:
 
 ![Thesis](thesis.jpg)
 
-The "PurgedClean" file consists of *extracts* of the working code that aims to increase readability when explaining it.
+The "PurgedClean" file consists of *extracts* of the working code that aims to increase readability when explaining it. Example snippet:
 
 ```
 ## ==== Prediction ====
